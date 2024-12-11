@@ -1,5 +1,6 @@
 from pydantic import BaseModel
+from typing import Dict
 
 class MatchRequest(BaseModel):
-    user_input: str
-    top_n: int = 5  
+    specifications: Dict[str, str]
+    top_n: int = 5
