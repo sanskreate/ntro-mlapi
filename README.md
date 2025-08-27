@@ -225,9 +225,3 @@ curl -X 'POST' \
 Pull requests and suggestions are welcome! Please open an issue for major changes.
 
 ---
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
