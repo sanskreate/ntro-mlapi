@@ -21,5 +21,5 @@ def match_products(request: MatchRequest):
         return {"error": str(e)}
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="127.0.0.1", port=9000)
+    uvicorn.run(app, host="127.0.0.1", port=8000)
 
